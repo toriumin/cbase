@@ -1,10 +1,8 @@
 
 
-#ifndef _UTIL_H_
-#define _UTIL_H_
+#ifndef _POWER_H_
+#define _POWER_H_
 
-
-int power(int x, int y);
-
+int power(int x, int i, int a);
 
 #endif

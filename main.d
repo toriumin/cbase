@@ -1,3 +1,3 @@
-main.o: main.c power.h
+main.o: main.c util.h
 
-power.h:
+util.h:
