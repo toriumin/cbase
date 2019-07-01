@@ -11,12 +11,12 @@ for (i = 0; i< 5; ++i)
     return 0;
 }
 
-int power(int base, int x)
+int power(int base, int y)
 {
 int i, s;
 
 s = 1;
-for (i = 1; i <= x; ++i);
-s = s * base;
-return s;
+for (i = 1; i <= y; ++i)
+    s = s * base;
+    return s;
 }
