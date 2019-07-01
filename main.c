@@ -12,6 +12,6 @@ int main (int argc, char **argv)
     puts("Let's go!");
 
     printf("2 + 2 = %d", add(2, 2));
-    
+
     return 0;
 }
