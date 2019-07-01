@@ -7,7 +7,7 @@ int main()
 int i;
 
 for (i = 0; i< 5; ++i)
-    printf("%d回目 2乗の冪乗: %d -３の冪乗: %d\n", i, power(-1,i), power(2,i));
+    printf("%d回目 -1の冪乗: %d -2の冪乗: %d\n", i, power(-1,i), power(2,i));
     return 0;
 }
 
