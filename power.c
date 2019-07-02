@@ -17,7 +17,8 @@ int power(int base, int y)
 
     s = 1;
 
-    for (i = 1; i <= y; ++i)
+    for (i = 1; i <= y; ++i) {
         s = s * base;
         return s;
+    }
 }
