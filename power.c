@@ -19,6 +19,6 @@ int power(int base, int y)
 
     for (i = 1; i <= y; ++i) {
         s = s * base;
-        return s;
+    return s;
     }
 }
